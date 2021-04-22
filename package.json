@@ -1,0 +1,23 @@
+{
+  "name": "@lurkmorr/discord-webhook",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:lurkmorr/discord-webhook.git",
+  "author": "waperp <lurkmorr@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "tsc test/test && mocha",
+    "build": "rimraf lib && tsc --target es5"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "@types/mocha": "^8.2.2",
+    "@types/node": "^14.14.41",
+    "dts-gen": "^0.6.0",
+    "mocha": "^8.3.2",
+    "typescript": "^4.2.4"
+  }
+}
